@@ -11,4 +11,5 @@ module.exports = async (req, res) => {
     await db.storeItem(item);
     res.send(item);
     // VL TEST
+    // VL TEST 2
 };
